@@ -1,6 +1,6 @@
 #include <ll/api/memory/Hook.h>
-#include <mc/world/level/BlockSource.h>
 #include <mc/world/level/BlockPos.h>
+#include <mc/world/level/BlockSource.h>
 #include <mc/world/level/block/CrafterBlock.h>
 
 LL_AUTO_TYPE_INSTANCE_HOOK(
