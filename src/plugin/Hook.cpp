@@ -12,7 +12,7 @@ LL_AUTO_TYPE_INSTANCE_HOOK(
     BlockSource&    blockSource,
     BlockPos const& blockPos
 ) {
-    auto& blockEntity = blockSource.getBlockEntity(blockPos);
+    auto blockEntity = blockSource.getBlockEntity(blockPos);
     if (!blockEntity) {
         return;
     }
