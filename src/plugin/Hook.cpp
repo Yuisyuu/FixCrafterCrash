@@ -7,7 +7,7 @@ LL_AUTO_TYPE_INSTANCE_HOOK(
     CrafterDispenseHook,
     ll::memory::HookPriority::Normal,
     CrafterBlock,
-    CrafterBlock::dispenseFrom,
+    &CrafterBlock::dispenseFrom,
     void,
     BlockSource&    blockSource,
     BlockPos const& blockPos
